@@ -14,10 +14,12 @@ section{
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+section:nth-last-of-type(odd){
+  color: #f1f1f7;
+}
 
 section:nth-child(1){
   background-image: url("../images/1.jpg");
-  color: #fff;
 }
 
 section:nth-child(3){
